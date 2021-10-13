@@ -1,0 +1,124 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E2F3F5;
+    color: #E2F3F5;
+}
+
+.container {
+    margin: 70px auto;
+    width: 300px;
+    height: 500px;
+    background: #3d5af1;
+    text-align: center;
+    border-radius: 30px;
+    transition: 1s;
+    box-shadow: 5px 10px 8px #999;
+}
+
+#errorText {
+    font-size: 13px;
+    color: #22d1ee;
+    width: max-content;
+    margin: 0 auto;
+}
+
+#headerText {
+    padding-top: 20px;
+    color: #E2F3F5;
+    font-weight: bold;
+    font-family: sans-serif;    
+}
+
+#input {
+    background: #3d5af1;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 5px solid #E2F3F5;
+    border-right: 0;
+    padding: 5px;
+    color: #E2F3F5;
+}
+input#input:focus {
+    border-left: 5px solid #E2F3F5;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    color: #E2F3F5;
+    outline: none;
+}
+#input::placeholder {
+    color: #E2F3F5;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: 2px solid #000;
+    text-transform: unset;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.btn-add {
+    border-radius: 50%;
+    color: #27BBFF;
+    background-color: #fff;
+    border: 2px solid #E2F3F5;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-add:hover {
+    box-shadow: 7px 8px 16px #999;
+}
+.btn-add:active{
+    background-color: red;
+}
+i{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#list {
+    background-color: #e2f3f5;
+    height: 360px;
+    border-radius: 30px;
+    overflow: scroll;
+    padding: 20px 0 0 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.list-item {
+    padding: 10px 15px;
+    margin:0 20px;
+    height: 40px;
+    color: #3d5af1;
+    list-style: none;
+    clear: both;
+    transition: 1s ease-in-out;
+}
+
+.list-item:hover {
+    border-radius: 10px;
+     background:rgba(255,255,255, 0.3);
+}
+
+#listText {
+    margin-top: 8px;
+    float: left;
+    text-align: left;
+}
+#dateText {
+    font-size: 10px;
+    margin: 0;
+    color: #bbb;
+    text-align: left;
+}
+
+#actionBtn{
+    margin-top: 10px;
+    float: right;
+}
+
